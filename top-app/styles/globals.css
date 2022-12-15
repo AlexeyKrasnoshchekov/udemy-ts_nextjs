@@ -3,6 +3,11 @@ body {
 	margin: 0;
 	padding: 0;	
 
+	font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
 	color: var(--black);
 	background-color: #F5F6F8;
 }
@@ -19,8 +24,10 @@ a {
 
 :root {
 	--black: #3B434E;
+	--gray-light: #ebebeb;
 	--white: white;
 	--primary: #7653FC;
+	--primary-hover: #5229f7;
 	--red: #FC836D;
 	--green: #1DC37E;
 	--green-light: #C8F8E4;
